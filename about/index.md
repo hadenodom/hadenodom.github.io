@@ -2,6 +2,7 @@
 layout: default
 title: Haden Odom
 ---
+## About Me
 
 Hi!  I'm Haden Odom.  I hail from a small town in Mississippi, where I spent the first decade and a half of my life without a computer, before eventually getting a little 686 machine and dial-up.  Technology fascinated me then.  And it still fascinates me now.  
 
