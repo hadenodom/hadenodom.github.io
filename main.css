@@ -47,3 +47,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+dt {
+    font-size: 30px;
+}
+
+dd {
+    padding-bottom: 8px;
+}
