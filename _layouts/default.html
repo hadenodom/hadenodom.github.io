@@ -2,24 +2,24 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/main.css">
 		</head>
 		<body>
-		<table width="100%" height="100%">	<tr class="tall"> <td class="sidebar">
+		<div class="sidenav"
 					<ul>
 			      <li><a href="/">Home</a></li>
 				    <li><a href="/about/">About</a></li>
 			      <li><a href="/blog/">Blog</a></li>
 						<li><a href="/proj/">Projects</a></li>
 	    		</ul>
-			</td><td>
-			<div class="container">
+		</div>
+			<div class="main">
 
 			{{ content }}
 
 			</div>
-		</td></tr>
-			</table>
+		
 			</body>
 	</html>
