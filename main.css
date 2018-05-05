@@ -55,3 +55,8 @@ dt {
 dd {
     padding-bottom: 8px;
 }
+
+td.sidebar {
+    background-color:navy;
+    color: white;
+}
