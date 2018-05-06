@@ -116,9 +116,9 @@ body {
   width: 100%;
 }
 
-.icon {
+/*.icon {
   display: none;
-}
+} */
 
 /* when the screen is less than 600px wide, hide the links in sidenav, and show the link that expands the menu */
 @media screen and (max-width: 600px) {
