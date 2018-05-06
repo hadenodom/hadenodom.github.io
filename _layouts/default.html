@@ -35,15 +35,16 @@ function expandIt() {
 			} else {
 				y.className = "header";
 			}
-		if (y.className === "main") {
-			  y.className += " responsive";
+		var z = document.getElementById("content")
+		if (z.className === "main") {
+			  z.className += " responsive";
 			} else {
-				y.className = "main";
+				z.className = "main";
 			}
 		}
 			</script>
 		  </div>
-			<div class="main">
+			<div class="main" id="content">
 			{{ content }}
 
 			</div>
