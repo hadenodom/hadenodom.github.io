@@ -123,10 +123,10 @@ body {
 /* when the screen is less than 600px wide, hide the links in sidenav, and show the link that expands the menu */
 @media screen and (max-width: 600px) {
   .sidenav /*a:not(:first-child)*/ {display: none;}
-  a.icon {float:right; display:block;}
+  a.icon {float:right; display:inline;}
 /* show the sidenav on the left when the expand icon is clicked */
   .sidenav.responsive {position: relative;}
-  .sidenav.responsive {float: none; display: inline;}
+  .sidenav.responsive {float: none; display: block;}
 /* bring the page contents and header over to fill in the gap when the navbar is gone */
   .header {margin-left:0px; padding: 0px 20px;}
   .main {margin-left:0px; padding: 0px 20px;}
