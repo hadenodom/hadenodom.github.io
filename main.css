@@ -4,6 +4,7 @@ body {
     width: 100%;
     background: #fbeee6;
     color: #283747;
+    top: 0;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -98,6 +99,7 @@ body {
     margin-left: 160px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+    top: 150px; position: fixed;
 }
 
 @media screen and (max-height: 450px) {
@@ -110,4 +112,5 @@ body {
   margin-left: 160px;
   background-color: #ff7675;
   color: #dfe6e9;
+  top: 0; position: fixed;
 }
