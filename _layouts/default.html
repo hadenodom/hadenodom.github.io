@@ -9,25 +9,28 @@
 		<body>
 		<div class="sidenav" id="THEsidenav">
 					<ul>
-						<a href="javascript:void(0);" class="icon" onclick="expandIt()">&#9776;</a>
 			      <li><a href="/">Home</a></li>
 				    <li><a href="/about/">About</a></li>
 			      <li><a href="/blog/">Blog</a></li>
 						<li><a href="/proj/">Projects</a></li>
 	    		</ul>
-					<script>
-		function expandIt() {
-		    var x = document.getElementById("THEsidenav");
-		    if (x.className === "sidenav") {
-		        x.className += " responsive";
-		    } else {
-		        x.className = "sidenav";
-		    }
-		}
-					</script>
+
 		</div>
 			<div class="header">
-			<h1> Haden Odom </h1>
+			<h1>
+				<a href="javascript:void(0);" class="icon" onclick="expandIt()">&#9776;</a>
+				 Haden Odom
+			</h1>
+			<script>
+function expandIt() {
+		var x = document.getElementById("THEsidenav");
+		if (x.className === "sidenav") {
+				x.className += " responsive";
+		} else {
+				x.className = "sidenav";
+		}
+}
+			</script>
 		  </div>
 			<div class="main">
 			{{ content }}
