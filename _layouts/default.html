@@ -7,7 +7,7 @@
 			<link rel="stylesheet" type="text/css" href="/main.css">
 		</head>
 		<body>
-		<div class="sidenav"
+		<div class="sidenav" id="THEsidenav">
 					<ul>
 						<a href="javascript:void(0);" class="icon" onclick="expandIt()">&#9776;</a>
 			      <li><a href="/">Home</a></li>
@@ -17,7 +17,7 @@
 	    		</ul>
 					<script>
 		function expandIt() {
-		    var x = document.getElementById("sidenav");
+		    var x = document.getElementById("THEsidenav");
 		    if (x.className === "sidenav") {
 		        x.className += " responsive";
 		    } else {
