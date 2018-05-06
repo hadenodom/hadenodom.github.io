@@ -122,11 +122,11 @@ body {
 
 /* when the screen is less than 600px wide, hide the links in sidenav, and show the link that expands the menu */
 @media screen and (max-width: 600px) {
-  .topnav a {display: none;}
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {float:right; display:block;}
 /* show the topnav on the left when the expand icon is clicked */
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {position: absolute; right:0; top:0;}
   .topnav.responsive a {float: none; display: block;}
-  
+
 }
