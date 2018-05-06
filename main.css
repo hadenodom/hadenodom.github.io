@@ -1,5 +1,6 @@
 body {
     margin: 0px auto;
+    padding: 0px;
     width: 70%;
     background: #fbeee6;
     color: #283747;
@@ -102,4 +103,10 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+.header {
+  padding: 0px 50px;
+  margin-left: 160px;
+  background-color: #ff7675;
 }
