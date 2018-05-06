@@ -16,7 +16,7 @@
 	    		</ul>
 
 		</div>
-			<div class="header">
+			<div class="header" id="Tops">
 			<h1>
 				<a href="javascript:void(0);" class="icon" onclick="expandIt()">&#9776;</a>
 				 Haden Odom
@@ -28,6 +28,19 @@ function expandIt() {
 				x.className += " responsive";
 		} else {
 				x.className = "sidenav";
+		}
+		var y = document.getElementById("Tops");
+		if (y.className === "header") {
+			  y.className += " responsive";
+			} else {
+				y.className = "header";
+			}
+		}
+		if (y.className === "main") {
+			  y.className += " responsive";
+			} else {
+				y.className = "main";
+			}
 		}
 }
 			</script>

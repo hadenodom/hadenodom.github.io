@@ -130,4 +130,7 @@ body {
 /* bring the page contents and header over to fill in the gap when the navbar is gone */
   .header {margin-left:0px; padding: 0px 20px;}
   .main {margin-left:0px; padding: 0px 20px;}
+/* push the header over when the navbar is brought in */
+  .header.responsive {margin-left: 160px;}
+  .main.responsive {margin-left: 160px;}
 }
