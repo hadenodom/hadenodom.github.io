@@ -126,8 +126,7 @@ body {
   a.icon {float:right; display:block;}
 /* show the sidenav on the left when the expand icon is clicked */
   .sidenav.responsive {position: relative;}
-  a.icon {position: absolute; right:0; top:0;}
-  .sidenav.responsive {float: none; display: block;}
+  .sidenav.responsive {float: none; display: inline;}
 /* bring the page contents and header over to fill in the gap when the navbar is gone */
   .header {margin-left:0px; padding: 0px 20px;}
   .main {margin-left:0px; padding: 0px 20px;}
